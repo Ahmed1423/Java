@@ -1,0 +1,15 @@
+Compiler: 
+
+1) Converts the entire high-level code into machine code in one go.
+2) A separate executable file is created.
+3) Gives list of all syntax errors once the entire program is processed.
+4) Source code is private and not required after compilation.
+5) Faster execution.
+
+Interpreter:
+
+1) Converts high level code into machine code line by line and executes simultaneously. 
+2) No separate executable file is created.
+3) Execution stops when the first error is encountered, preventing the program from running further.
+4) Source code is not private as it is required every time we want to execute the code.
+5) slower execution. 

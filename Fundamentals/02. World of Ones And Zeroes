@@ -1,0 +1,15 @@
+Digital devices like computers and laptops can only understand binary data, represented by 1's and 0's.
+
+This is because computers are made up of thousands of tiny electronic components called transistors, which act as electronic switches that control the flow of electricity. These transistors have two states:
+
+    ON: Indicates the signal is flowing through.
+    OFF: Indicates the signal is not flowing through.
+
+Since transistors either allow electricity to flow (ON) or block it (OFF), the binary system uses 1 to represent the ON state and 0 to represent the OFF state. This makes binary the simplest and most efficient way for computers to represent data.
+
+Because of this, computers use the binary system to represent all kinds of data. So whatever instructions you want the computer to perform, they have to be in 1's and 0's which in turn are nothing but a combination of the signals fetched to the computer.
+
+Example:
+Think of a light bulb controlled by a switch. When you turn the switch ON, the bulb lights up (representing 1). When you turn the switch OFF, the bulb goes dark (representing 0).
+
+While the binary system is based on these ON and OFF states, it is not limited to just representing them. It can also represent numbers, characters, and other complex instructions.

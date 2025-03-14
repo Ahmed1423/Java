@@ -1,0 +1,12 @@
+The binary number system represents numbers using two digits: 0, 1. It is also known as the base-2 system, meaning each digit in a number has a place value that is a power of 2.
+
+Example:
+The number 6 can be broken down as:
+1 × 2 ^ 2 + 1 × 2 ^ 1 + 0 × 2 ^ 0
+This gives us: 1 × 4 + 1 × 2 + 0 × 1 = 6
+
+In this example, the position of each digit determines its place value:
+
+- The 1 is in the 2^2 place (1 × 4),
+- The 1 is in the 2^1 place (1 × 2),
+- The 0 is in the 2^0 place (0 × 1).

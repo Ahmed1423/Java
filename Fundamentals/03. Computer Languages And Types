@@ -1,0 +1,15 @@
+Computer languages are categorized into two types:
+
+1)  Low-Level Languages:
+    These languages are closer to machine code, making them easier for machines to understand but harder for humans. There are two types of low-level languages:
+
+    a) Machine Language:
+    This language consists of binary code (1's and 0's) that the computer can directly understand without any translation. No transformer tool is needed.
+
+    b) Assembly Language:
+    This language uses special codes, called mnemonics, to represent instructions. Since assembly language is not in binary code, it requires a tool (an assembler) to translate it into machine language.
+
+    Assembler: A tool that converts assembly language into machine language.
+
+2)  High-Level Languages:
+    These languages are easier for humans to understand but difficult for machines. High-level languages need to be translated into machine code for the computer to execute. This translation is done using tools like compilers or interpreters. There are different categories of high-level languages, including compiled, interpreted, and hybrid languages.
