@@ -1,0 +1,11 @@
+Pseudo Code: 
+
+A pseudo code is sequence of instructions written in english language and is non executable. 
+
+Examples of a Pseudo Code to add two numbers:
+
+1) Begin
+2) Read two numbers num1 and num2 
+3) Add num1 and num2 and store it in num3 
+4) output num3 
+5) End

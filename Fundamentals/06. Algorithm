@@ -1,0 +1,18 @@
+Algorithm: 
+
+An Algorithm is a sequence of instructions that solves a well defined problem. There are many types of 
+algorithms such as:
+
+- Recursive Algorithm: Solves a problem by calling itself with smaller inputs, and it terminates when it reaches a base case.
+- Backtracking Algorithm: Solves problems by exploring all possible solutions and undoing the decisions (backtracking) when a path does not lead to a solution.
+- Dynamic Programming: Breaks down a problem into smaller overlapping subproblems, solving each once and storing the results to avoid redundant work.
+- Divide and Conquer: Divides a problem into smaller sub-problems, solves each one, and then combines the results to get the final solution.
+
+Example of an Algorithm to add two numbers:
+
+1) Start
+2) Read num1
+3) Read num2 
+3) Add num1 and num2 and store it in num3
+4) display num3
+5) Stop
