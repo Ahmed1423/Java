@@ -1,0 +1,14 @@
+Bug:
+A mistake or error in the program that causes it to behave incorrectly or crash.
+
+They fall into several categories:
+
+- syntax errors
+- runtime errors 
+- semantic errors 
+- logical erros
+- memory errors
+
+Debugging:
+The process of identifying, analyzing, and fixing bugs or errors in a program. IDE's are an excellent tool that can help us
+in debugging issues.
