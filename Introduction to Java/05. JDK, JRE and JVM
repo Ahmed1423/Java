@@ -1,0 +1,35 @@
+JDK:
+
+JDK stands for Java Development Kit. It is a software development kit that provides everything you want as a software developer
+from writing java programs to executing it. 
+
+It consists of
+
+- JRE 
+- Compiler
+- Debugger 
+- Java Doc 
+
+JRE:
+
+JRE stands for Java Runtime Environment. It is responsible for providing an environment to run java programs. 
+
+It consists of
+
+- JVM 
+- Class Libraries (lang, util, io, Math etc)
+
+It can only run programs, we cannot write anything with it. 
+
+JVM: 
+
+JVM stands for Java Virtual Machine. It is responsible for executing java programs. It does not exist physically and is an abstract
+machine. It consists of following:
+
+- Classloader: responsible for loading bytecode into the memory. 
+- ByteCode Verifier: Verifies the bytecode for any illegal code. 
+- execution engine: responsible for executing the program. 
+  Contains interpreter, jit compiler and garbage collector.
+- automatic garbage collection: frees up unused memory. 
+- Stack - where method calls, local variables are stored 
+- heap - Where objects are stored.  

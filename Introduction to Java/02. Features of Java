@@ -1,0 +1,53 @@
+Java is popular and is used world wide because of the following: 
+
+1. Simple: 
+Java is simple because of the following: 
+- It is based on C++ (Smooth transition for C++ developers to Java)
+- Removed complex and rarely used features (pointers, structures, unions and operator overloading)
+- No need to remove unreferenced objects as we have automatic garbage collection
+
+2. Object Oriented: 
+Object Oriented programming is a methodology where we organize our software around objects that incorporates both data and behaviour.
+
+Six pillars of OOPS: 
+- objects
+- classes
+- abstraction 
+- encapsulation 
+- inheritance 
+- polymorphism 
+
+3. Platform independent:
+Java code gets compiled to bytecode which is a machine independent code and can be run on any platform. (linux, windows, MAC)
+
+4. Architecture Neutral:
+Java is architecture neutral because it's features are not implementation based. For example, size of the data type int is fixed. 
+In C, it is 2 bytes for 32 bit and 4 bytes for 64 bit, but in java it is 4 bytes for 32 and 64 bit.
+
+5. Portable:
+Since it is platform independent, it can be carried and executed on any machine. 
+
+6: Robust:
+Java is Robust(Strong) because:
+- Strong memory management. 
+- automatic garbage collection
+- exception handling and type checking mechanisms.
+
+7: Secure:
+- runs inside a virtual machine sandbox
+- bytecode verifier: verifies bytecode for any illegal access. 
+- no explicit pointers, so no direct access to memory
+- security manager: decides which resources a class can access such as read or write to
+
+8: Dynamic:
+- supports method overriding. (call to a method is decided at runtime based on object rather than reference variable)
+- classes are loaded at runtime rather than start of the program. 
+
+9. Multithreaded:
+Java supports multithreading that helps us to execute tasks concurrently. 
+
+10. distributed:
+Java is distributed because it has inbuilt tools & software that makes it easy for us to create distributed applications. 
+- RMI -> allows objects on different machines to communicate
+- supports network communication such as socket communication, http etc with java.net package
+- interact with database (MySQL, Oracle) with the help of JDBC

@@ -1,0 +1,19 @@
+--- 
+
+documentation
+package statement
+import statement
+class definition 
+
+-- ( Can have any number of methods and any number of statements in each method)
+method definition
+statement (Each statement must end with a semi colon)
+--
+
+---
+
+There is one method that is mandatory, which is main method. 
+
+Main method is the entry point of the program i.e. where the execution of the program starts. 
+JVM is responsible for invoking the main method. When we run the program JVM looks for the main method and invokes it 
+directly without creating an object of the class as it is a static method.
