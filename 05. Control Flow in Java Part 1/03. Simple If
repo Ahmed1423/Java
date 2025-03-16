@@ -1,0 +1,7 @@
+We have only one if conditon under this.
+
+int num = 3; 
+
+if(num == 3) {
+  System.out.println("You've guessed it correct");
+}

@@ -1,0 +1,25 @@
+int number = 4;
+
+switch(num % 2) {
+  case 1: System.out.println("Odd");
+          break;
+  case 0: System.out.println("Even");
+          break;
+  default: System.out.println("What is this number man?");
+}
+
+
+default statement is optional, but good to have as in case if any case doesn't get executed, default case will. 
+fall through behaviour will happen if we don't keep break statement for cases. 
+
+Switch Expressions can return the values as well.
+
+int d = 3;
+String day = switch(d) {
+  case 1 -> "Monday";
+  case 7 -> "Sunday";
+  default -> "Some Random day of the Week Given";
+}
+
+Switch only works with byte, short, int, char, Byte, Short, Integer, Character, Strings and enum
+Switch doesn't support float, boolean and double

@@ -1,0 +1,25 @@
+We use this when we have a lot of choices to make. 
+
+String day = "Monday";
+
+if(day.equals("Monday")) {
+  System.out.println("Weekday");
+} 
+else if(day.equals("Tuesday")) {
+  System.out.println("Weekday");
+}
+else if(day.equals("Wednesday")) {
+  System.out.println("Weekday");
+} 
+else if(day.equals("Thursday")) {
+  System.out.println("Weekday");
+}
+else if(day.equals("Friday")) {
+  System.out.println("Weekday");
+}
+else if(day.equals("Saturday")) {
+  System.out.println("Weekend");
+}
+else if(day.equals("Sunday")) {
+  System.out.println("Weekend");
+}
