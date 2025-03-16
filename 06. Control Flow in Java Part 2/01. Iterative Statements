@@ -1,0 +1,9 @@
+Iterative statements are used when we want to repeat a block of code multiple times, either until a specific condition
+is met or for a certain number of iterations
+
+We have four different types of iterative statements: 
+
+1. For loop
+2. While loop
+3. do While loop
+4. for each loop

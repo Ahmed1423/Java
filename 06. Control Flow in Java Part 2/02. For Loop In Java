@@ -1,0 +1,11 @@
+The for loop is used when you know in advance how many times you want to execute a statement or block of statements.
+It consists of three parts: initialization, condition, and increment/decrement.
+
+Initialization: Sets the starting point of the loop.
+Condition: Determines whether the loop continues executing.
+Increment/Decrement: Updates the loop control variable.
+
+
+for(int i = 1; i <= 10; ++i) {
+  System.out.print(i + " ");
+}

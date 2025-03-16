@@ -1,0 +1,19 @@
+The while loop is used when the number of iterations is not known in advance, and you want to repeat a
+block of code while a condition is true
+
+
+while (condition) {
+    // Code to be executed
+}
+
+
+Example:
+
+Scanner sc = new Scanner(System.in);
+
+int num = sc.nextInt();
+
+while(num != 4) {
+  System.out.println(num);
+  num = sc.nextInt();
+}

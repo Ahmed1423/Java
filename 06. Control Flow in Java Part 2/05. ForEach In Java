@@ -1,0 +1,16 @@
+The for-each loop is a simplified version of the for loop, designed for iterating over arrays or collections. It's useful when you want
+to iterate through all elements of a collection without needing the index.
+
+This is also called as enhanced for loop
+
+
+for (type element : collection) {
+    // Code to be executed for each element
+}
+
+
+String [] names = {"Ahmed", "Anwar", "Mukarram", "Amer"}
+
+for(String name: names) {
+  System.out.println(name);
+}
