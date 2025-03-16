@@ -1,9 +1,9 @@
-These Operators helps us in performing Bitwise Operations in Java. 
+These Operators helps us in performing Bitwise Operations in Java. These work based on the bits. 
 
-1. Bitwise AND (&)
-2. Bitwise OR (|)
-3. Bitwise Right Shift (>>)
-4. Bitwise Left Shift (<<)
-5. Bitwise XOR (^)
-6. Bitwise NOT (~)
-7. Bitwise Unsigned Right Shift (>>>)
+1. Bitwise AND (&) -> if both bits 1 then 1 else 0.
+2. Bitwise OR (|) -> if atleast one bit 1 then 1 else 0.
+3. Bitwise Right Shift (>>) -> shift bits right by right operand times (num * pow(2, n)).
+4. Bitwise Left Shift (<<) -> shift bits left by right operand times (num / pow(2, n)).
+5. Bitwise XOR (^) -> if both bits same then 0 else 1.
+6. Bitwise NOT (~) -> negate bits if 1 then 0 else if 0 then 1 (last bit represents sign).
+7. Bitwise Unsigned Right Shift (>>>) --> works same as right shift for (+ve) numbers, but ignores sign bit for (-ve) numbers.
