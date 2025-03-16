@@ -1,0 +1,7 @@
+Jump Statements are used to control the flow of program by transferring it to the other parts of the program. 
+
+Three types of Jump Statements in Java:
+
+1. break
+2. continue
+3. return

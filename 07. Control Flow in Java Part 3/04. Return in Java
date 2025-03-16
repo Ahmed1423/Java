@@ -1,0 +1,34 @@
+This is used to exit from the method and optionally returns a value. 
+
+Syntax:
+
+for(initialization; condition; inc/dec) {
+  if(condition) {
+    return; (or) return value;
+  }
+}
+
+int []nums = {1, 2, 3, 4, 5, 6, 7, 8};
+
+for(int num: nums) {
+  if(num == 4) {
+    return; // in case of void method
+  }
+  System.out.println(num);
+}
+
+output: 1, 2, 3
+
+
+int num1 = 2;
+int num2 = 3;
+
+int output = add(num1, num2);
+
+System.out.println(output);
+
+int add(int num1, int num2) {
+  return num1 + num2;
+}
+
+output: 5;
