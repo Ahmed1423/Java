@@ -4,3 +4,9 @@ public class HelloWorld {
     System.out.println("Hello, World!");
   }
 }
+
+
+Commands to run java program: 
+
+1) javac file_name.java  --> invokes the java compiler to compile this file into byte code 
+2) javac file_name --> starts jvm which executes the prgram 
