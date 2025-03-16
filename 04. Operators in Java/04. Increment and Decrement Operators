@@ -1,0 +1,48 @@
+Increment and Decrement Operators are unary operators i.e they work on single operand. They help us in incrementing
+and decrementing value by 1. 
+
+1. pre increment & post increment
+2. pre decrement & post decrement
+3. unary plus 
+4. unary minus
+
+Pre increment operator: 
+
+int num = 0; 
+
+int num1 = ++num --> first num is incremented and then assigned to num1 
+
+// num1 = 1, num = 1
+
+Pre Decrement Operator:
+
+int num = 0; 
+
+int num1 = --num --> first num is decremented and then assigned to num1 
+
+// num1 = -1, num = -1
+
+Post increment operator: 
+
+int num = 0; 
+
+int num1 = num++ --> first num is assigned to num1 and then incremented
+
+// num1 = 0, num = 1
+
+Post decrement operator: 
+
+int num = 0; 
+
+int num1 = num-- --> first num is assigned to num1 and then decremented 
+
+// num1 = 0, num = -1
+
+
+Unary plus: indicates a positive value(often redundant)
+
+int num = +2;
+
+Unary minus: negates the value of operand
+
+int num = -3;

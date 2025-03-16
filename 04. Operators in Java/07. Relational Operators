@@ -1,0 +1,10 @@
+These operators help us in comparing the values. 
+
+We have 6 relational operators: 
+
+1) greater than(>)
+2) less than (<)
+3) greater than or equal to (>=)
+4) less than or equal to (<=)
+5) is equal (==)
+6) not equal (!=)

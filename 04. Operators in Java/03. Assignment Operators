@@ -1,0 +1,8 @@
+These Operators helps us in assigning the value to the variables. 
+
+= -> int num = 3 
++= -> num += 3 => num = num + 3
+-= -> num -= 3 => num = num - 3
+*= -> num *= 3 => num = num * 3 
+/= -> num /= 3 => num = num / 3
+%= -> num %= 3 => num = num % 3

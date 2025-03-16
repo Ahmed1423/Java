@@ -1,0 +1,15 @@
+?: is the ternary operator. 
+
+Syntax:
+
+(expression) ? executes this statement if true : executes this statement if false. 
+
+int num = 2;
+
+(num % 2 == 0) ? System.out.println("even") : System.out.println("odd");
+
+since expression is true, even is printed.
+
+(num * 4 == 6) ? System.out.println("correct") : System.out.println("wrong");
+
+since expression is false, wrong is printed.

@@ -1,0 +1,9 @@
+These Operators helps us in performing Bitwise Operations in Java. 
+
+1. Bitwise AND (&)
+2. Bitwise OR (|)
+3. Bitwise Right Shift (>>)
+4. Bitwise Left Shift (<<)
+5. Bitwise XOR (^)
+6. Bitwise NOT (~)
+7. Bitwise Unsigned Right Shift (>>>)

@@ -1,0 +1,4 @@
+The instanceof operator is used to check if an object is an instance of a specific class or subclass.
+
+String str = "Hello";
+boolean result = str instanceof String;  // true

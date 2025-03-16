@@ -1,0 +1,47 @@
+Helps us to perform logical operations on data: 
+
+There are three types of logical operators: 
+
+1. Logical AND (&&)  --> Both true then true else false
+2. Logical OR (||) --> atleast one true then true else false 
+3. Logical NOT (!) --> if true then false, else if false then true 
+
+int num1 = 4, num2 = 6;
+
+if(num1 % 2 == 0 && num1 % 3 == 0) {
+  //satisfies
+}
+
+if(num1 % 2 == 0 && num1 % 4 == 0) {
+  //does not satisfies
+}
+
+if(num1 % 4 == 0 && num1 % 8 == 0) {
+  //does not satisfies
+}
+
+if(num1 % 2 == 0 || num1 % 3 == 0) {
+  //satisfies
+}
+
+if(num1 % 2 == 0 || num1 % 4 == 0) {
+  //satisfies
+}
+
+if(num1 % 4 == 0 || num1 % 8 == 0) {
+  //does not satisfies
+}
+
+
+boolean isPresent = true;
+boolean isNotPresent = false;
+
+if(!isPresent) {
+  // does not satisfy
+}
+
+if(!isNotPresent) {
+  satisfy
+}
+
+
