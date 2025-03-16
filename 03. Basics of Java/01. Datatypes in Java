@@ -1,0 +1,24 @@
+Datatype is nothing but the type of data that we have.
+
+In Java,We have two different categories of datatypes:
+
+1) primitive datatype : used to store simple values. They store the actual values.
+
+We have 8 different primitive data types:
+
+byte --> 1 byte 
+short --> 2 bytes 
+int --> 4 bytes 
+long --> 8 bytes 
+float --> 4 bytes 
+double --> 8 bytes
+char --> 2 byte (unicode characterset hence 2 bytes)
+boolean -->  1 bit (true or false)
+
+2)  non primitive/reference datatypes: used to store complex values. Store reference (or) memory address that point to the location
+of the object in the memory rather than the actual values.
+
+- strings
+- classes
+- enums & collection 
+- interfaces

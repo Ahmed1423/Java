@@ -1,0 +1,29 @@
+In Java, you read the input from console(Standard input stream) with the help of Scanner class: 
+
+Scanner scanner = new Scanner(System.in);
+
+// int 
+
+int number = scanner.nextInt();
+String value = scanner.next() (or) scanner.nextLine();
+boolean isFalse = scanner.nextBoolean();
+float num = scanner.nextFloat();
+double pi = scanner.nextDouble();
+Byte b = scanner.nextByte();
+Short s = scanner.nextShort();
+long digit = scanner.nextLong();
+
+// close the scanner so the resources are released
+
+scanner.close();
+
+Note: Garbage collector frees up the memory, but doesn't & cannot close the resources.
+
+In order to write the output, to standard output stream:
+
+- System.out.println("abcde"); // print and cursor moves to new line
+- System.out.print("abcde); // print and cursor is at the same line
+
+This is only for reading/writing to console, we have different methods for file handling.
+
+

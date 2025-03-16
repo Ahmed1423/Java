@@ -1,0 +1,14 @@
+Variables are containers that store the data. 
+
+For example: if you want to store the number 10, you say:
+
+int num1 = 10;
+
+String name = "Ahmed";
+
+boolean isPresent = true;
+
+int number; // declaration
+number = 10; // initialization
+
+boolean isTrue = true; // declaration + initialization

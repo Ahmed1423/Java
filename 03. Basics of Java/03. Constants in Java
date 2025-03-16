@@ -1,0 +1,7 @@
+Constants are variables that store data which cannot be changed once assigned or initialized. 
+
+In Java, we achieve this with the help of final keyword. 
+
+Example: 
+
+final int ZERO = 0;

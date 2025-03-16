@@ -1,0 +1,21 @@
+Comments are non-executable statements that provide explanations or annotations within the code.They are used to improve code
+readability and help developers understand the purpose and functionality of the code.
+
+Comments are ignored by the Java compiler during execution.
+
+There are three types of Comments in Java: 
+
+1. Single line comment - //
+2. Multi line comment - 
+
+/*
+  This is a comment
+*/
+
+3. Documentation comment -
+
+/**
+  This is a documentation 
+  comment. It is used to provide 
+  documentation such as what a particular class or method is doing.
+*/
