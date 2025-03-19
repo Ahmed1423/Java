@@ -1,0 +1,45 @@
+Mutable: once created, can be changed
+ImM=mutable: once created, cannot be changed
+
+Why Strings are immutable ?
+
+String is an object, so the memory will be allocated in heap. 
+
+When we say String address = "London" , memory would be allocated in heap. 
+
+address is a reference variable 
+
+adress, 102      -->    102 -> ["London"]  [] indicates heap 
+
+Now when we say
+
+String address1 = 'London"
+
+We would assume that a new object is created and stored in heap memory, but that's not the case. 
+
+We have something called as String constant pool in heap which first checks if object is present in pool. 
+
+If no, it creates that in heap. 
+If yes, it simply points to that address, does not create any new object (or) any memory. 
+
+So address1 would also be same
+adress1, 102      -->    102 -> ["London"]  [] indicates heap 
+
+When we concatenate Strings we are not replacing value, instead we create a new object and assign that value. 
+
+String a = "ab" 
+
+a, 101 => 101, ["ab"]
+
+a = a + "c"
+
+Assumption:
+
+a, 101 -> 101, ["abc"]
+
+Reality:
+
+ , 101 -> 101, ["ab"]
+a, 102 -> 102, ["abc"]
+
+Hence Strings are immutable and not concatenation efficient. 

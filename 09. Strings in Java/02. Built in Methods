@@ -1,0 +1,11 @@
+We have lot of built in methods in String: 
+
+length() --> gives length of String
+toUpperCase()
+toLowerCase
+equals()
+equalsIgnoreCase()
+trim() -> removes all leading and trailing whitespaces -> only ASCII, not Unicode
+strip() -> removes all leading and trailing whitespaces -> both ASCII and Unicode
+empty() -> ""
+blank() -> "" or "     "

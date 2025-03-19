@@ -1,0 +1,17 @@
+Strings are a sequence of characters. 
+
+Example: "Khan" 
+
+Declaring a String:
+
+String name; 
+
+Initializing a String:
+
+String name = "Ahmed";
+
+Why Strings when we have char arrays: 
+
+1. Lot of methods.
+2. Immutable whereas char arrays are mutable.
+3. performance optimizations such as efficient memory management by JVM.
