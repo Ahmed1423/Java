@@ -1,0 +1,19 @@
+In Java, we can create an array of arrays. 
+
+int[][] nums = new int[3][3];
+
+for(int i = 0; i < nums.length; ++i) {
+  for(int j = 0; j < nums[i].length; ++i) {
+    nums[i][j] = i * j;
+  }
+}
+
+(or)
+
+int[][] nums = {
+  {1, 2, 3},
+  {4, 5, 6},
+  {7, 8, 9}, 
+  {10, 11, 12},
+  {13, 14, 15}
+}

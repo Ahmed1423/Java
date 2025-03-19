@@ -1,0 +1,17 @@
+An Array is a collection of similar elements stored in contiguos memory locations. The index values starts from 0. 
+
+It is a data structure that allow random access of the data with the help of indexes. 
+
+Example 1: [1, 2, 3, 4] -> array of integers
+Example 2: ["abcd", "efgh", "hijk", "lmno"] -> array of strings
+Example 3: [1.0f, 2.2f, 3.3f, 4.4f] -> array of floats
+
+In order to access first element of the array:
+
+name_of_array[0] -> 1 for integers, "abcd" for strings, "1.0" for floats
+
+You can have an array of size 0. 
+
+Default value for integer arrays would be 0. 
+Default value for string arrays would be null.
+Default value for boolean arrays would be false.

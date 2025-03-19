@@ -1,0 +1,24 @@
+int[] nums = {2, 1, 4, 3, 5};
+
+Some of the important methods in Arrays:
+
+nums.length -> would give me the length of array (5)
+Arrays.sort(nums) -> sorts the array (1, 2, 3, 4, 5)
+Arrays.binarySearch(nums, value)
+Arrays.binarySearch(nums, value, start, end)
+Arrays.copyOf(nums, end)
+Arrays.copyOf(nums, start, end)
+Arrays.fill(nums, value)
+
+Note: Copy Of Method would allow us to truly copy the elements of the array. Simple assignment would cause 
+two reference variable pointing to same object. 
+
+int[] nums = {1, 2, 3}
+int[] gums = nums;
+
+gums[0] = 4; // this would make nums[0] to 4 as well. 
+
+int[] gums = Arrays.copyOf(nums, nums.length) --> exact copy, not referring to same 
+int[] gums = Arrays.copyOf(nums, 2 * nums.length) --> exact copy, initialize with nums and extend the length
+int[] gums = Arrays.copyOf(nums, 2) --> exact copy, initialize with nums and reduce the length
+int[] gums = Arrays.copyOf(nums, 1, 2) --> exact copy, initialize with nums with first to second index {2, 3} for {1, 2, 3}

@@ -1,0 +1,18 @@
+Rugged Arrays:
+
+In Java there is nothing called as multi dimensional arrays, so what we have is array of arrays. 
+
+We could have rows with same or varying columns:
+
+int[] nums = new int[3][];
+
+for(int i = 0; i < nums.length; ++i) {
+  nums[i] = new int[i + 1];
+}
+
+Only for structure, values should be initialized.
+{
+  {1}, 
+  {2, 3},
+  {4, 5, 6}
+}

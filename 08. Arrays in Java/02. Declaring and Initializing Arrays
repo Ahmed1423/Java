@@ -1,0 +1,33 @@
+Declaration:
+
+int[] nums;
+String[] names; 
+
+Initialization: 
+
+int[] nums = new int[5] -> an arrays of nums whose length is 5.
+String[]names = new String[6] -> an array of strings whose length is 6.
+
+for(int i = 0; i < nums.length; ++i) {
+  nums[i] = value; 
+}
+
+for(int num: nums) {
+  System.out.println(num);
+}
+
+You can directly assign the value as well. 
+
+int[] nums = {1, 2, 3, 4, 5};
+
+nums[0] = 6; --> this would modify the array. 
+
+So new array would be [6, 2, 3, 4, 5]
+
+Note: 
+
+int[] nums = {1, 2} and int[]nums = new int[]{1, 2} both serve the same purpose. 
+
+The first is used when we want to initialize when we declare it, second can be used to create arrays on demand. 
+
+Both are allocated in heap and reference variable nums would be in stack.
