@@ -1,0 +1,7 @@
+string          stringbuffer        stringbuilder
+
+heap                heap                 heap
+immutable           mutable            mutable
+thread safe       thread safe         not thread safe
+synchronized      synchronized        not synchronized
+inefficient       efficient           more efficient
