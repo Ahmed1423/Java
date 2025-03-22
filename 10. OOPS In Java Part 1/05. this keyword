@@ -1,0 +1,8 @@
+This keyword is a reference to the object on which the method was invoked. 
+
+It is used to resolve name space collisions. 
+
+Rectange(int length, int breadth) {
+  this.length = length;
+  this.breadth = breadth;
+}

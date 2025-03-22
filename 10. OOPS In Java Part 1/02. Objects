@@ -1,0 +1,14 @@
+An Object is an instance of a class. It's a real world entity. 
+
+For Example, if you have a class called Person
+
+class Person {
+  String name;
+  ...
+}
+
+You can create an object of it by following way:
+
+Person person1 = new Person();
+
+Objects take space in memory like any other variable once you use new. 

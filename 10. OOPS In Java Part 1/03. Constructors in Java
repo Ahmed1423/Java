@@ -1,0 +1,29 @@
+Constructors are called when we create a new object. The purpose of the constructor is to initialize the values of fields for
+an object.
+
+It has to be same name as class name and has no return type.
+
+When we do not provide any constructor java provides a default constructor with no arguments. 
+
+class Person {
+  String name;
+  Person() {
+    // this is provided by java in default, we can also write it.
+  }
+}
+
+Types of constructors:
+
+1. default: no args, provided by java. We can also define it.
+2. parameterized constructors: n number of args, we have to define it. 
+3. copy constructor: allows us to copy the fields of one object into another instead of referencing to same object (pointing to same
+address in the memory).
+4. private constructor: restricts the instantiation of a class. We cannot create instance of a class other than the class itself. 
+    General Usecases:
+
+    1. Singleton Pattern
+    2. UnInstantiable classes (Utility Methods)
+
+
+Constructor overloading: gives us the ability to define multiple constructors depending on our use cases.
+

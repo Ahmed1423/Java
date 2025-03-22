@@ -1,0 +1,21 @@
+A class is a blue print of an object. It defines what data an object should have and the behaviours. 
+
+Syntax:
+
+class ClassName {
+
+  datatype variable_name;
+
+  datatype method_name(..args) {
+    //statements
+  }
+}
+
+ClassName Starts with a capital letter and follows camel case thereafter.
+
+Variables defined with in the class are called instance variables.
+Functions defined with in the class are called methods.
+
+These variables and methods together are considered as members of the class.
+
+Class doesn't take any space in memory.

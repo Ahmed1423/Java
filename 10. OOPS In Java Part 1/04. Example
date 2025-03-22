@@ -1,0 +1,57 @@
+class Box {
+  double length;
+  double breadth;
+  double height;
+
+  Box() {
+    // default constructor
+  }
+
+  Box(double length, double breadth, double height) {
+    // parameterized constructor
+    this.length = length;
+    this.breadth = breadth;
+    this.height = height;
+  }
+
+  Box(Box box) {
+    // copy constructor
+    this.length = box.length;
+    this.breadth = box.breadth;
+    this.height = box.height;
+  }
+
+  //getters
+
+  double getLength() {
+    return this.length;
+  }
+
+  double getBreadth() {
+    return this.breadth;
+  }
+
+  double getHeight() {
+    return this.height;
+  }
+
+  // setters
+
+  void getLength(double length) {
+    this.length = length;
+  }
+
+  void getBreadth(double breadth) {
+    this.breadth = breadth;
+  }
+
+  void getHeight(double height) {
+    this.height = breadth;
+  }
+
+  // volume
+
+  double getVolume() {
+    return this.length * this.breadth * this.height;
+  }
+}
