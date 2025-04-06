@@ -1,0 +1,13 @@
+An object class is the parent class of all the objects that are created. It is directly or indirectly extended by all the classes. 
+
+It provides some useful methods:
+
+- toString
+- hashcode - unique integer created by jvm for every object. It is not address of the object. 
+- equals 
+- clone 
+- getClass
+- finalize 
+- wait
+- notify
+- notifyAll
