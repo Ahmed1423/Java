@@ -1,0 +1,8 @@
+Encapsulation is the principle which says hide the data and its behaviours into a single corresponding unit. 
+
+In Java, Encapsulation is achieved with the help of class where we declare all the data or properties as private and have getters/setters
+to access the data. 
+
+Validation must be done in a proper way before we use the setters. 
+
+This is generally used for preventing unauthorized access and to maintain integrity of the data. 

@@ -1,0 +1,18 @@
+Inheritance in Java allows one class to acquire the properties and behaviour of another class having parent child relationship.
+
+private members of a parent class are not inherited and cannot be accessed directly by sub class.
+super class -> base class
+sub class -> child class
+
+Inheritance provides
+
+- code reusability
+- prerequisite for method overriding
+
+Types of Inheritance:
+
+i) Simple  A <- B
+ii) Multilevel A <- B <- C
+iii) Hierarchial  A <- B, c
+iv) multiple - only achieved through interfaces and not with classes. A, B <- C
+v) hybrid - combination of one or more inheritances.

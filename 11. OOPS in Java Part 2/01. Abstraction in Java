@@ -1,0 +1,87 @@
+Abstraction is the principle that says reveal only essential details to the user and hide the irrelevant & complex information 
+that is not needed by the user. 
+
+Abstraction in Java is achieved with the help of abstract classes and interfaces. 
+
+Interfaces gives us 100% abstraction. 
+
+Abstract classes and methods: 
+
+- Use keyword abstract to declare the method or class as abstract. 
+- A class with one or more abstract methods needs to be declared as abstract. 
+- An abstract class can have abstract and concrete methods and constructors. 
+- Class that is extending must override all the abstract methods else it should be declared as abstract. 
+- We cannot create an instance of an abstract class
+- Abstract can be only class and methods it cannot be a constructor. 
+
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+abstract class Figure {
+    
+    double length;
+    double width;
+    
+    Figure() {
+        this.length = 0;
+        this.width = 0;
+    }
+    
+    Figure(double length, double width) {
+        this.length = length;
+        this.width = width;
+    }
+    
+    abstract void area();
+    
+}
+
+class Rectangle extends Figure{
+    Rectangle() {
+        super();
+    }
+    
+    Rectangle(double length, double width) {
+        super(length, width);
+    }
+    
+    void area() {
+        System.out.println(this.length * this.width);
+    }
+}
+
+class Triangle extends Figure{
+    Triangle() {
+        super();
+    }
+    
+    Triangle(double length, double width) {
+        super(length, width);
+    }
+    
+    void area() {
+        System.out.println((this.length * this.width) / 2);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Rectangle r = new Rectangle();
+        r.area();
+        
+        Rectangle r1 = new Rectangle(2, 4);
+        r1.area();  
+        
+        Triangle t = new Triangle();
+        t.area();
+        
+        Triangle t1 = new Triangle(3, 6);
+        t1.area();
+    }
+}
+
+Interfaces: use implements keyword for this. Will be discussed in more detail later.
+
+Used for: 
+
+Hiding the complexity and increasing the modularity, reusability of the code. 

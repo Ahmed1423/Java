@@ -1,0 +1,5 @@
+Super is a special keyword in java that has three special use cases:
+
+1) to call constructor of super class. 
+2) to access instance variable of super class 
+3) to access method of the super class

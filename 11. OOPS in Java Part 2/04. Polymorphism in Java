@@ -1,0 +1,13 @@
+Polymorphism means ability to exhibit multiple forms. It gives language ability that allows objects to have same name but different
+functionality. 
+
+Polymorphism in Java is of two types: 
+
+1) compile time Polymorphism - achieved through method overloading. Also known as static Polymorphism.
+2) run time Polymorphism - achieved through method overriding. Also known as dynamic Polymorphism.
+
+Method Overloading -> same method name, difference in no of parameters (or) types. 
+Methods overriding -> inheritance, same name and signature. 
+
+Runtime Polymorphism helps us to achieve dynamic method dispatch which is call to a method is resolved at run time based on the 
+object rather than the reference variable. 
